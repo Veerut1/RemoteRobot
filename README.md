@@ -12,6 +12,7 @@ Configure RemoteRobot in project
 RemoteRobot robot = new RemoteRobot("localhost",4445);
 
 Some of the example methods are mentioned below...
+
 Screenshot Capturing
 Rectangle capture = new Rectangle(Toolkit.getDefaultToolkit().getScreenSize()); robot.getRobotImpl().createScreenCapture(capture,"D://My Projects");
 Invoking external events
